@@ -9,5 +9,19 @@ body{
 }
 
 .bg-turquoise{
-  background-color: $turquoise;
+  background: rgb(136,206,196);
+  background: linear-gradient(180deg, rgba(136,206,196,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.obj-fit{
+  object-fit: cover;
+}
+
+.uplifted{
+  position: relative;
+  top: -30px;
+}
+
+.pb-lg{
+  padding-bottom: 75px;
 }
